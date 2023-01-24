@@ -11,6 +11,6 @@ it ("Should not get a login token", async () => {
             "password": "BadPassword!"
         })
     })
-
+    
     expect(loginResponse.status).toBe(401)
 })
